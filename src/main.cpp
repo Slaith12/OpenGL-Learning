@@ -69,8 +69,8 @@ int main()
 
 bool CompileShaders()
 {
-    shaderPrograms[0] = CreateShader("vertexShader.glsl", "fragmentShader.glsl");
-    shaderPrograms[1] = CreateShader("vertexShader.glsl", "fragmentShader2.glsl");
+    shaderPrograms[0] = CreateShader("Content/vertexShader.glsl", "Content/fragmentShader.glsl");
+    shaderPrograms[1] = CreateShader("Content/vertexShader.glsl", "Content/fragmentShader2.glsl");
     return true;
 }
 
